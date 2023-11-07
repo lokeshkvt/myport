@@ -1,0 +1,688 @@
+html
+{
+    scroll-behavior: smooth;
+}
+header {
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    z-index: 2;
+}
+.firstnav{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:991px){
+    .firstnav .contact-box{
+        display: none;
+    }
+}
+.nav-box {
+    float: right;
+    padding: 25px 0px 15px 15px;
+
+}
+.nav-box ul {
+    display: flex;
+    justify-content: end;
+    max-width: 576px;
+}
+
+.nav-box li {
+    max-width: 34px;
+    list-style: none;
+    margin-right: 2%;
+}
+
+.nav-btn {
+    background-color: #fdb924;
+    /* padding: 5px 10px 5px 10px; */
+}
+.navbar a{
+    color: black !important;
+    font-size: 15px;
+    font-weight: 700;
+}
+.navbar button{
+    background-color: #fdb924;
+}
+.nav-item:hover{
+    background-color: #fdb924;
+}
+.main-bg{
+    background-color: #134e9c;
+    height: 500px;
+    margin-bottom: 200px;
+    padding-top: 50px;
+}
+.banner-1{
+    background-image: url(img/banner1.png);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.cont-box h1{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+.cont-box{
+    margin-top: 150px;
+    color: white;
+}
+.banner-1 .row{
+    justify-content: end;
+}
+@media (max-width:576px){
+    .banner-1 .row{
+        justify-content: center;
+    } 
+}
+.s-box{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    width: 150px;
+    margin: auto;
+    padding-left: 15px;
+}
+.crl-box{
+    background-color: #fdb924;
+    padding: 45px;
+    margin-top: 40px;
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+}
+@media(max-width:576px){
+    .crl-box{
+        text-align: center;
+        max-width: 220px;
+        height: auto;
+        margin: auto;
+    }
+}
+@media(max-width:991px){
+    .crl-box{
+        text-align: center;
+        max-width: 220px;
+        height: auto;
+        margin: 70px auto;
+    }
+}
+.wlc-text-bx{
+    padding-top: 100px;
+}
+.wlc-text-bx p{
+    font-size: 18px;
+}
+@media(max-width:991px){
+    .wlc-text-bx{
+        padding-top: 10px;
+        text-align: center;
+    }
+}
+.wlc-box button{
+    background-color: #fdb924;
+    color: white;
+    border: 0px;
+    padding: 5px 15px;
+}
+.wlc-box button:hover{
+    background: black;
+    color: #fdb924;
+}
+.wlc-box{
+    justify-content: space-between;
+}
+.fc-imgbox{
+    padding: 20px;
+    /* width: 200px; */
+}
+.fc-textbox{
+    padding: 15px;
+    color: white;
+}
+.clrbox-1{
+    background-color: #fdb924;
+}
+.clrbox-2{
+    background-color: #ff7963;
+}
+.clrbox-3{
+    background-color: #30b57a;
+}
+.clrbox-4{
+    background-color: #f37021;
+}
+footer{
+    margin-top: 100px;
+}
+.fttr-line{
+    background-color: black;
+    height: 2px;
+    width: 100%;
+}
+.fttr-logo{
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: -26px auto;
+    width: 50px;
+    height: 50px;
+    list-style: none;
+    padding: 6px;
+    background: white;
+}
+footer .contact-box a{
+    text-decoration: none;
+    color: black;
+}
+footer .contact-box a:hover{
+    color: #fdb924;
+}
+footer .add-box{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+@media (max-width:767px)
+{
+    footer .add-box{
+        display: block;
+    }
+}
+footer .add-box li{
+    margin: 0px 10px;
+}
+footer .contact-box {
+    text-align: center;
+}
+/* css of about us page  */
+.sec-about-1{
+    background-color: #f26008;
+    padding-top: 145px;
+}
+.first-a-row .textbox
+{
+    align-items: center;
+    display: grid;
+}
+.first-a-row .textbox h1
+{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+.switchbox
+{
+    background-color: #e1e1e1;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+.switchbox .switch-list
+{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    justify-content: center !important;
+    display: flex;
+}
+.switchbox .switch-list li{
+    padding: 20px;
+}
+.switchbox .switch-list a{
+    text-decoration: none;
+    color: black;
+}
+.switchbox .switch-list .active{
+    background-color: #fdb924;
+}
+.sec-a-row .iconbox
+{
+    width: 80px;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+.sec-a-row .bgcolor-a{
+    background-color: #E64013;
+}
+.sec-a-row .bgcolor-b{
+    background-color: #337ab7
+}
+.sec-a-row .bgcolor-c{
+    background-color: #93c01f
+}
+.sec-a-row .iconbox:hover{
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.sec-about-2{
+    color: white;
+    position: relative;
+    padding: 5% 0px;
+    margin: 2% 0% 30px 0%
+}
+.sec-about-2 h1{
+    border-left: 5px solid white;
+    padding-left: 10px;
+}
+.sec-about-2::before
+{
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: url(img/our-history.jpg);
+    position: absolute;
+    filter: grayscale(100%);
+    filter: brightness(50%);
+}
+.hist-row
+{
+    position: relative;
+}
+.hist-pic
+{
+    border: 2px solid white;
+    padding: 10px;
+    filter: grayscale(100%);
+}
+.hist-pic:hover
+{
+    filter: none;
+    transition: 1s;
+}
+.faculty-sec{
+    margin: 5% 0%;
+}
+.head-text-box
+{
+    padding: 2% 0%;
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin-bottom: 50px;
+}
+.head-text-box h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.fac-img-box-c
+{
+    height: auto;
+    width: 100%;
+    background-color: rgb(215, 215, 215);
+    padding: 10px;
+    border: 2px solid black;
+}
+.fac-row .fac-cont-box
+{
+    margin-top: 7%;
+}
+.fac-row .fac-cont-box q
+{
+    font-size: 25px;
+    font-weight: 700;
+}
+.fac-row .fac-cont-box .quot-a
+{
+    color: #fdb924;
+    font-style: italic;
+}
+.fac-row .fac-cont-box p
+{
+    line-height: 25px;
+}
+.why-row .why-img-box
+{
+    margin: auto 0px;
+}.why-row .y-b-text
+{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fdb924;
+}
+.why-row .txt-h-b
+{
+    font-size: 20px;
+}
+.why-row p
+{
+    line-height: 30px;
+}
+.circle-box
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 50px 0px;
+}
+.circle-box .heading-1
+{
+    background-color: #e64011;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 35px;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 55px;
+}
+.circle-box .heading-2
+{
+    background-color: #26a7b1;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 50px;
+    top: 35px;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    position: absolute;
+}
+.circle-box .heading-3
+{
+    background-color: #50ba1a;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 35px;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 55px;
+}
+
+/* css of our_management page from here */
+
+.our-m-sec1 .row
+{
+    padding: 25px 50px;
+    margin: 50px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.our-m-sec1 .mn-img-box img
+{
+    height: 350px;
+}
+.our-m-sec1 .mn-img-box .imgbox
+{
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.our-m-sec1 .mn-cont-box h2
+{
+    font-size: 25px;
+    font-weight: 700;
+    color: #e64011;
+}
+.our-m-sec1 .mn-cont-box .chairman
+{
+    color: #e64011;
+    position: relative;
+    left: 35px;
+}
+.our-m-sec1 .mn-cont-box .chairman::before
+{
+    content: "";
+    display: block;
+    background-color: #e64011;
+    height: 3px;
+    width: 20px;
+    position: absolute;
+    left: -30px;
+    top: 12px;
+}
+.our-m-sec1 .mn-cont-box q
+{
+    font-size: 25px;
+    font-style: italic;
+}
+.our-m-sec1 .mn-cont-box
+{
+    padding-top: 5%;
+}
+.our-m-sec1 .mn-cont-box-2
+{
+    padding-top: 2%;
+}
+
+ /* css strat from here fos the admission page */
+
+ .sec-admission-1{
+    background: #fd3d1e;
+    padding-top: 145px;
+}
+ .admission-sec-1 .f-head-box
+ {
+    background-color: #fdb924;
+    max-width: 70%;
+    margin: 5% auto;
+    text-align: center;
+    padding: 10px;
+ }
+ .admission-sec-1 .admis-cont-box
+ {
+    background-color: #f5f5f5;
+    padding: 20px 15px;
+ }
+ .admission-sec-1 .admis-cont-box h3
+ {
+    font-size: 30px;
+    font-weight: 700;
+ }
+ .admission-sec-1 .admis-cont-box .ad-ses-tx
+ {
+    color: #93c01f;
+    font-weight: 700;
+ }
+ .admission-sec-1 .admis-cont-box button
+ {
+    background-color: #93c01f;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 700;
+ }
+ .admission-sec-1 .head-of-icons
+ {
+    padding: 10px;
+    margin: 3% 0%;
+    text-align: center;
+    font-size: 20px;
+ }
+ .admission-sec-1 .icon-box
+ {
+    text-align: center;
+    padding: 30px 0px;
+    border-right: 1px solid black
+ }
+ .admission-sec-1 .icon-box:hover
+ {
+    background-color: rgb(245, 245, 245);
+ }
+ .admission-sec-1 .icon-box i
+ {
+    color: rgb(0, 156, 209);
+ }
+ .admission-sec-1 .icon-box p
+ {
+    font-size: 20px;
+ }
+ 
+ /* css start from here for academi page */
+
+ .sec-academic-1
+{
+    background: #134e9c;
+    padding-top: 145px;
+}
+.sec-academic-2 .head-of-box
+{
+    text-align: center;
+}
+.sec-academic-2 .quoat-box
+{
+    color: #cb9319;
+    font-style: italic;
+    border-left: 5px solid #cb9319;
+    margin: 2% 0%;
+    padding: 0% 2%;
+    background-image: url(img/star.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.sec-academic-2 .row
+{
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+.subject-sec
+{
+    margin: 50px 0px;
+}
+.subject-sec .sub-cont
+{
+    text-align: center;
+    height: auto;
+    padding: 5px 10px;
+    font-weight: 700;
+}
+.subject-sec .sub-cont .div-color
+{
+    background-color: rgb(203, 242, 255);
+    padding: 10px 0px;
+}
+.subject-sec .sub-cont .div-color:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sec-teac-styl
+{
+    background-image: url(img/style-teaching.jpg);
+    background-size: cover;
+    position: relative;
+    color: white;
+    margin: 50px auto;
+}
+.sec-teac-styl::before
+{
+    content: " ";
+    background-color: #e64011;
+    opacity: 0.92;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+.sec-teac-styl
+{
+    padding: 20px 0px 50px 0px;
+}
+.sec-teac-styl .t-cont-box
+{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.sec-teac-styl .icon-box 
+{
+    position: relative;
+}
+.sec-teac-styl  .icon-box-t
+{
+    padding: 10px 0px;
+    text-align: center;
+    border-right: 1px solid white;
+}
+.sec-teac-styl  .icon-box-t:hover
+{
+   background-color: #e64011;
+}
+.sec-teac-styl .position-class
+{
+    position: relative;
+    text-align: center;
+}
+.ptm-container .ptm h3
+{
+    font-weight: 700;
+}
+@media (max-width:767px){
+    .ptm-container .ptm
+    {
+        text-align: center;
+    }
+}
+.ptm-container{
+    border-bottom: 1px solid rgb(108, 108, 108);
+    padding-bottom: 30px;
+}
+.fees-sec
+{
+    margin: 50px 0px;
+}
+.fees-sec h3
+{
+    font-weight: 700;
+}
+.fees-sec .share-arrow::before
+{
+    content: " ";
+    background-image: url(img/back-arrow.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-right: 5px;
+    left: 3%;
+    height: 17px;
+    width: 20px;
+
+}
+.fees-sec .color-text
+{
+    color: #ffaf03;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* css start from here for the faculities page */
+
+.sec-faculty-1
+{
+    background: #12ac68;
+    padding-top: 145px;
+}
+.faculty-sec-2 .wlc-box
+{
+    padding: 30px 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.faculty-sec-2 .wlc-box img
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.faculty-sec-2 .wlc-text-bx h2
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+.faculty-sec-2 .wlc-text-bx p
+{
+    font-weight: 400;
+    color: rgb(63, 63, 63);
+}
